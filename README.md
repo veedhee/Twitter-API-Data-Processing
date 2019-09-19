@@ -5,9 +5,12 @@
 Python Version: 3.6.1
 
 Run `pip install tweepy` on cmd
-Fetch Twitter API Keys from here and feed into the `keys.py` key slots respectively. Keys can be fetched [here](//www.developers.twitter.com)
-The format for running the program from command line is:
+
+Fetch the Twitter API Keys and feed into the `keys.py` key slots respectively. Keys can be fetched [here](//www.developers.twitter.com)
+
+The format for running the program from command line is: 
 `python app.py keyword buffer`
+
 Here, the first argument `keyword` will be the user desired keyword they want to track using Streaming API. The second argument `buffer` can be either 'one' or 'two' as string literals. 'one' corresponds to the first task of 1 minute tracking, and 'five' corresponds to the second task of 5 minutes tracking. Any other values passed to the uffer will default in 'one' (1).
 
 ## OUTPUT
