@@ -3,7 +3,8 @@
 
 ## RUN
 Python Version: 3.6.1
-`pip install tweepy`
+
+Run `pip install tweepy` on cmd
 Fetch Twitter API Keys from here and feed into the `keys.py` key slots respectively. Keys can be fetched [here](//www.developers.twitter.com)
 The format for running the program from command line is:
 `python app.py keyword buffer`
